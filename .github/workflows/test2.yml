@@ -6,11 +6,10 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'https://github.com/andresfkyjas/repo_ci.git' 
-    runs-on: ubuntu-latest
-
+    runs-on: windows-latest
     permissions:
       contents: write
+
 
     steps:
       - name: Checkout repo
